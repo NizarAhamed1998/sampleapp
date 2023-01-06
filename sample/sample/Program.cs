@@ -11,6 +11,8 @@ namespace sample
         static void Main(string[] args)
         {
             Console.WriteLine(add2num(10,20));
+            Console.WriteLine(sub2num(20,10));
+
         }
         #region add_two_number
         public static int add2num(int a, int b)
@@ -20,7 +22,10 @@ namespace sample
 
         #endregion
         #region Subtract_two_number
-
+        public static int sub2num(int a, int b)
+        {
+            return a - b;
+        }
         #endregion
     }
 }
